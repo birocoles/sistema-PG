@@ -1,7 +1,7 @@
 # sistema-PG
 
 Este repositório contém um pacote de rotinas escritas com o 
-[Python Pandas]<https://pandas.pydata.org/docs/getting_started/overview.html>
+[Python Pandas](https://pandas.pydata.org/docs/getting_started/overview.html)
 para a manipulação de informações referentes a um programa de pós-graduação.
 O objetivo é relacionar todas as pessoas, produção científica e documentos 
 gerados pelo programa de pós-graduação com o intuito de permitir a análise
