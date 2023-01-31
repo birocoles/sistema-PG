@@ -9,8 +9,9 @@ help:
 	@echo "  test      run the test suite (including doctests) and report coverage"
 	@echo "  report    open the html test report"
 	@echo "  clean     clean up build and generated files"
-	@echo ""
+	@echo "  style     automatically format code with black"
 	@echo "  uninstall   uninstall and remove from "
+	@echo ""
 
 install:
 	# Install the python package
@@ -30,6 +31,9 @@ clean:
 	find . -name ".coverage" -exec rm -v {} \;
 	find . -name ".pytest_cache" -exec rm -rvf {} \;
 	find . -name "__pycache__" -exec rm -rvf {}
+
+style:
+	python -m black --line-length 80 --verbose .
 
 uninstall:
 	python -m pip uninstall $(PROJECT)
