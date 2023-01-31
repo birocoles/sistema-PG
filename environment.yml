@@ -1,0 +1,13 @@
+name: sistema-PG
+channels:
+    - defaults
+dependencies:
+    - python>=3.7
+    - re
+    - pandas
+    - matplotlib
+    - numpy
+    - pytest
+    - pytest-cov
+    - coverage
+    - black
